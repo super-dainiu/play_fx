@@ -1,10 +1,8 @@
 """
 This file contains the counter pass for profiling the flops and parameters of a GraphModule.
 
-Reuse the code from nni.compression.pytorch.utils.counter.py
+I failed to reuse the code from nni.compression.pytorch.utils.counter.py
 """
-
-from nni.compression.pytorch.utils import count_flops_params
 import torch
 import torch.fx
 from torch.fx import Interpreter
